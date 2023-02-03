@@ -1,5 +1,5 @@
 
-const Contacts = () => {
+const Contact = () => {
   return (
     <main className='section'>
       <div className='container'>
@@ -29,4 +29,4 @@ const Contacts = () => {
     </main>
   )
 }
-export default Contacts
+export default Contact

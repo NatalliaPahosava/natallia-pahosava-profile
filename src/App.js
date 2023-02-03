@@ -1,14 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import "./styles/main.css"
-// import sun from "./img/icons/sun.svg"
-// import moon from "./img/icons/moon.svg"
+
 
 import Navbar from "./components/nav/Navbar"
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Project from "./pages/Project";
-import Contacts from "./pages/Contacts"
+import Contact from "./pages/Contact"
 import Footer from "./components/footer/Footer";
 
 
@@ -21,7 +20,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/project/:id" element={<Project/>}/>
-          <Route path="/contacts" element={<Contacts/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer/>
         </BrowserRouter>
