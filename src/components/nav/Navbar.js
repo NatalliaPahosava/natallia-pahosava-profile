@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className='container'>
         <div className='nav-row'>
           <NavLink to='/' className='logo'>
-          Fullstack Software Developer <br/>
-          Portfolio
+            Fullstack Software Developer <br />
+            Portfolio
           </NavLink>
 
           <ul className='nav-list'>
@@ -33,12 +33,13 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className='nav-list__item'>
-              <NavLink
+            <NavLink
                 to='/contact'
                 className={({ isActive }) => {
                   return isActive ? activeLink : normalLink
                 }}>
-                Contact              </NavLink>
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
