@@ -19,9 +19,7 @@ const Project = () => {
               Demo
             </a>
             <p>
-              Skills:
-              <br />
-              {project.skills}
+              Skills:{project.skills}
             </p>
           </div>
 
