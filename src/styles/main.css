@@ -224,15 +224,17 @@ body {
 		font-size: 30px;
 	}
 
-	.header__title strong {
+	/* .header__title strong {
 		font-size: 40px;
-	}
+	} */
 
 	/* Nav */
 
 	.nav-row {
-		justify-content: space-between;
+		display: flex;
+		flex-direction: row;
 	}
+   
 
 	.dark-mode-btn {
 		order: 0;

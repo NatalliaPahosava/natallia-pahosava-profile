@@ -9,7 +9,12 @@ const Navbar = () => {
       <div className='container'>
         <div className='nav-row'>
           <NavLink to='/' className='logo'>
-            Portfolio Fullstack Software Developer
+          <img
+            width='80px'
+            src='https://cryptocurrencyjobs.co/startups/assets/logos/tokenwalk.803c331bb51321719796ef91381fdb507210e5efcd4a0904b7d496bba84518d3.jpg'
+            alt=''
+          />
+            <div >Portfolio Fullstack Software Developer</div>
           </NavLink>
 
           <ul className='nav-list'>
